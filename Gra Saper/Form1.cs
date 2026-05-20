@@ -13,5 +13,9 @@ public class Form1 : Form
     public Form1()
     {
         this.Text = "Saper";
+         this.ClientSize = new Size(GridSize * CellSize, GridSize * CellSize);
+        InitializeGrid();
+        PlaceMines();
+        CalculateNumbers();
       
     }
