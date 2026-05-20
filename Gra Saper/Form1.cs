@@ -17,5 +17,11 @@ public class Form1 : Form
         InitializeGrid();
         PlaceMines();
         CalculateNumbers();
-      
     }
+    
+ private void InitializeGrid()
+    {
+        for (int x = 0; x < GridSize; x++)
+        {
+            for (int y = 0; y < GridSize; y++)
+            {
